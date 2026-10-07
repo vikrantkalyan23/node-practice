@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Basic CRUD in node and json",
   "main": "src/index.js",
+  "type":"module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node --test",
-    "build": "node --build"
+    "test": "node --test"
   },
   "author": "Vikrant",
   "license": "MIT",
